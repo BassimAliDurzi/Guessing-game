@@ -27,7 +27,7 @@ inputForm.addEventListener("submit", (e) => {
     msg.innerHTML = `You guessed the number!! <br> Your number: ${typedNumber.value} <br>`;
     msg.style.color = "green";
     attempts += 1;
-    tries.innerHTML = `Number of quess ${attempts}`;
+    tries.innerHTML = `Number of guesses ${attempts}`;
     tries.style.color = "blueviolet";
     attempts = 0;
   }
