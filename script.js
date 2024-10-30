@@ -8,7 +8,7 @@ let attempts = 0;
 inputForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const randomNumner = Math.round(Math.random() * 10);
+  const randomNumner = Math.round(Math.random() * 100);
 
   tries.innerHTML = "";
 
