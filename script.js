@@ -16,11 +16,11 @@ inputForm.addEventListener("submit", (e) => {
     msg.innerHTML = "You must type a number!";
     msg.style.color = "red";
   } else if (typedNumber.value > randomNumner) {
-    msg.innerHTML = "Too High! ";
+    msg.innerHTML = "Too High ↑↑";
     msg.style.color = "black";
     attempts += 1;
   } else if (typedNumber.value < randomNumner) {
-    msg.innerHTML = "Too Low!";
+    msg.innerHTML = "Too Low ↓";
     msg.style.color = "black";
     attempts += 1;
   } else {
